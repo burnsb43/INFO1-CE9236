@@ -21,14 +21,14 @@
 		8521D4821457783300D35B51 /* Rowan2Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8521D4811457783300D35B51 /* Rowan2Tests.h */; };
 		8521D4841457783300D35B51 /* Rowan2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8521D4831457783300D35B51 /* Rowan2Tests.m */; };
 		8521D4971457793F00D35B51 /* Rowan2-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8521D4611457783300D35B51 /* Rowan2-Info.plist */; };
-		8521D49B145779A900D35B51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8521D499145779A900D35B51 /* InfoPlist.strings */; };
 		8521D4A114577A7600D35B51 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 8521D4A014577A7600D35B51 /* View.m */; };
 		8521D4A314577AE200D35B51 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8521D4A214577AE200D35B51 /* default.png */; };
 		8521D4A814577D1A00D35B51 /* rowan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8521D4A714577D1A00D35B51 /* rowan.jpg */; };
 		8521D4B114577E0400D35B51 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8521D4B014577E0400D35B51 /* icon.png */; };
-		8521D4BA1457806600D35B51 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8521D4B81457806600D35B51 /* Localizable.strings */; };
 		8521D4C0145780EA00D35B51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8521D4BC145780EA00D35B51 /* InfoPlist.strings */; };
 		8521D4C1145780EA00D35B51 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8521D4BE145780EA00D35B51 /* Localizable.strings */; };
+		8521D4D11457825A00D35B51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8521D4CD1457825A00D35B51 /* InfoPlist.strings */; };
+		8521D4D21457825A00D35B51 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8521D4CF1457825A00D35B51 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,15 +58,15 @@
 		8521D47F1457783300D35B51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8521D4811457783300D35B51 /* Rowan2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rowan2Tests.h; sourceTree = "<group>"; };
 		8521D4831457783300D35B51 /* Rowan2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rowan2Tests.m; sourceTree = "<group>"; };
-		8521D49A145779A900D35B51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		8521D49F14577A7600D35B51 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = View.h; path = ../View.h; sourceTree = "<group>"; };
 		8521D4A014577A7600D35B51 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = View.m; path = ../View.m; sourceTree = "<group>"; };
 		8521D4A214577AE200D35B51 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ../../../Granddaughter/Granddaughter/default.png; sourceTree = "<group>"; };
 		8521D4A714577D1A00D35B51 /* rowan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rowan.jpg; path = ../../../Granddaughter/Granddaughter/rowan.jpg; sourceTree = "<group>"; };
 		8521D4B014577E0400D35B51 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../Granddaughter/Granddaughter/icon.png; sourceTree = "<group>"; };
-		8521D4B91457806600D35B51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		8521D4BD145780EA00D35B51 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = InfoPlist.strings; sourceTree = "<group>"; };
 		8521D4BF145780EA00D35B51 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Localizable.strings; sourceTree = "<group>"; };
+		8521D4CE1457825A00D35B51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		8521D4D01457825A00D35B51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,10 +140,10 @@
 		8521D4601457783300D35B51 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8521D4CC1457825A00D35B51 /* en.lproj */,
 				8521D4BB145780EA00D35B51 /* fr.lproj */,
 				8521D4A714577D1A00D35B51 /* rowan.jpg */,
 				8521D4A214577AE200D35B51 /* default.png */,
-				8521D498145779A900D35B51 /* en.lproj */,
 				8521D4611457783300D35B51 /* Rowan2-Info.plist */,
 				8521D4621457783300D35B51 /* InfoPlist.strings */,
 				8521D4651457783300D35B51 /* main.m */,
@@ -171,15 +171,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8521D498145779A900D35B51 /* en.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				8521D4B81457806600D35B51 /* Localizable.strings */,
-				8521D499145779A900D35B51 /* InfoPlist.strings */,
-			);
-			path = en.lproj;
-			sourceTree = "<group>";
-		};
 		8521D4BB145780EA00D35B51 /* fr.lproj */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +178,15 @@
 				8521D4BE145780EA00D35B51 /* Localizable.strings */,
 			);
 			path = fr.lproj;
+			sourceTree = "<group>";
+		};
+		8521D4CC1457825A00D35B51 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8521D4CD1457825A00D35B51 /* InfoPlist.strings */,
+				8521D4CF1457825A00D35B51 /* Localizable.strings */,
+			);
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,13 +259,13 @@
 			files = (
 				8521D4641457783300D35B51 /* InfoPlist.strings in Resources */,
 				8521D4971457793F00D35B51 /* Rowan2-Info.plist in Resources */,
-				8521D49B145779A900D35B51 /* InfoPlist.strings in Resources */,
 				8521D4A314577AE200D35B51 /* default.png in Resources */,
 				8521D4A814577D1A00D35B51 /* rowan.jpg in Resources */,
 				8521D4B114577E0400D35B51 /* icon.png in Resources */,
-				8521D4BA1457806600D35B51 /* Localizable.strings in Resources */,
 				8521D4C0145780EA00D35B51 /* InfoPlist.strings in Resources */,
 				8521D4C1145780EA00D35B51 /* Localizable.strings in Resources */,
+				8521D4D11457825A00D35B51 /* InfoPlist.strings in Resources */,
+				8521D4D21457825A00D35B51 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,22 +342,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		8521D499145779A900D35B51 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8521D49A145779A900D35B51 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8521D4B81457806600D35B51 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8521D4B91457806600D35B51 /* en */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
 		8521D4BC145780EA00D35B51 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,6 +354,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				8521D4BF145780EA00D35B51 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8521D4CD1457825A00D35B51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8521D4CE1457825A00D35B51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8521D4CF1457825A00D35B51 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8521D4D01457825A00D35B51 /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
