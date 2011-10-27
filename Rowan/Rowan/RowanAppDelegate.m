@@ -7,8 +7,6 @@
 //
 
 #import "RowanAppDelegate.h"
-#import "View.h"
-
 
 @implementation RowanAppDelegate
 
@@ -17,14 +15,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    UIScreen *s = [UIScreen mainScreen];
-    CGRect b = s.bounds;
-    CGRect f = s.applicationFrame;
-    
-    view = [[View alloc] initWithFrame: f];
-    _window = [[UIWindow alloc] initWithFrame: b];
-    
-    [_window addSubview: view];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -71,7 +61,6 @@
 - (void)dealloc
 {
     [_window release];
-    [view release];
     [super dealloc];
 }
 

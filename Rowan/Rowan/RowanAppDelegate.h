@@ -7,12 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-@class View;
 
-@interface RowanAppDelegate : NSObject <UIApplicationDelegate> {
-    View *view;
-    UIWindow *_window;
-}
+@interface RowanAppDelegate : NSObject <UIApplicationDelegate>
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 

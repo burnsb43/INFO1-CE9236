@@ -7,202 +7,158 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8594E55714576C7800664F91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8594E55614576C7800664F91 /* UIKit.framework */; };
-		8594E55914576C7800664F91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8594E55814576C7800664F91 /* Foundation.framework */; };
-		8594E55B14576C7800664F91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8594E55A14576C7800664F91 /* CoreGraphics.framework */; };
-		8594E56114576C7800664F91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8594E55F14576C7800664F91 /* InfoPlist.strings */; };
-		8594E56314576C7800664F91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8594E56214576C7800664F91 /* main.m */; };
-		8594E56714576C7800664F91 /* RowanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8594E56614576C7800664F91 /* RowanAppDelegate.m */; };
-		8594E57214576C7800664F91 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8594E57114576C7800664F91 /* SenTestingKit.framework */; };
-		8594E57314576C7800664F91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8594E55614576C7800664F91 /* UIKit.framework */; };
-		8594E57414576C7800664F91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8594E55814576C7800664F91 /* Foundation.framework */; };
-		8594E57514576C7800664F91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8594E55A14576C7800664F91 /* CoreGraphics.framework */; };
-		8594E57D14576C7800664F91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8594E57B14576C7800664F91 /* InfoPlist.strings */; };
-		8594E57F14576C7800664F91 /* RowanTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8594E57E14576C7800664F91 /* RowanTests.h */; };
-		8594E58114576C7800664F91 /* RowanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8594E58014576C7800664F91 /* RowanTests.m */; };
-		8594E59514576CF400664F91 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8594E58A14576CF400664F91 /* default.png */; };
-		8594E59614576CF400664F91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8594E58C14576CF400664F91 /* InfoPlist.strings */; };
-		8594E59714576CF400664F91 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8594E58E14576CF400664F91 /* Localizable.strings */; };
-		8594E59814576CF400664F91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8594E59114576CF400664F91 /* InfoPlist.strings */; };
-		8594E59914576CF400664F91 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8594E59314576CF400664F91 /* Localizable.strings */; };
-		8594E59C14576D0D00664F91 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8594E59A14576D0D00664F91 /* icon.png */; };
-		8594E59D14576D0D00664F91 /* launch.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8594E59B14576D0D00664F91 /* launch.tiff */; };
-		8594E59F14576D1500664F91 /* rowan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8594E59E14576D1500664F91 /* rowan.jpg */; };
-		8594E5A214576DE200664F91 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 8594E5A114576DE200664F91 /* View.m */; };
+		8521D3F81457733400D35B51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8521D3F71457733400D35B51 /* UIKit.framework */; };
+		8521D3FA1457733400D35B51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8521D3F91457733400D35B51 /* Foundation.framework */; };
+		8521D3FC1457733400D35B51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8521D3FB1457733400D35B51 /* CoreGraphics.framework */; };
+		8521D4021457733400D35B51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8521D4001457733400D35B51 /* InfoPlist.strings */; };
+		8521D4041457733400D35B51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8521D4031457733400D35B51 /* main.m */; };
+		8521D4081457733400D35B51 /* RowanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8521D4071457733400D35B51 /* RowanAppDelegate.m */; };
+		8521D40B1457733400D35B51 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8521D4091457733400D35B51 /* MainWindow.xib */; };
+		8521D4131457733500D35B51 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8521D4121457733500D35B51 /* SenTestingKit.framework */; };
+		8521D4141457733500D35B51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8521D3F71457733400D35B51 /* UIKit.framework */; };
+		8521D4151457733500D35B51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8521D3F91457733400D35B51 /* Foundation.framework */; };
+		8521D4161457733500D35B51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8521D3FB1457733400D35B51 /* CoreGraphics.framework */; };
+		8521D41E1457733500D35B51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8521D41C1457733500D35B51 /* InfoPlist.strings */; };
+		8521D4201457733500D35B51 /* RowanTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8521D41F1457733500D35B51 /* RowanTests.h */; };
+		8521D4221457733500D35B51 /* RowanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8521D4211457733500D35B51 /* RowanTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8594E57614576C7800664F91 /* PBXContainerItemProxy */ = {
+		8521D4171457733500D35B51 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8594E54914576C7700664F91 /* Project object */;
+			containerPortal = 8521D3EA1457733400D35B51 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8594E55114576C7800664F91;
+			remoteGlobalIDString = 8521D3F21457733400D35B51;
 			remoteInfo = Rowan;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8594E55214576C7800664F91 /* Rowan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rowan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8594E55614576C7800664F91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8594E55814576C7800664F91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8594E55A14576C7800664F91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8594E55E14576C7800664F91 /* Rowan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rowan-Info.plist"; sourceTree = "<group>"; };
-		8594E56014576C7800664F91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8594E56214576C7800664F91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8594E56414576C7800664F91 /* Rowan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rowan-Prefix.pch"; sourceTree = "<group>"; };
-		8594E56514576C7800664F91 /* RowanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RowanAppDelegate.h; sourceTree = "<group>"; };
-		8594E56614576C7800664F91 /* RowanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RowanAppDelegate.m; sourceTree = "<group>"; };
-		8594E57014576C7800664F91 /* RowanTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RowanTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8594E57114576C7800664F91 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8594E57A14576C7800664F91 /* RowanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RowanTests-Info.plist"; sourceTree = "<group>"; };
-		8594E57C14576C7800664F91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8594E57E14576C7800664F91 /* RowanTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RowanTests.h; sourceTree = "<group>"; };
-		8594E58014576C7800664F91 /* RowanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RowanTests.m; sourceTree = "<group>"; };
-		8594E58A14576CF400664F91 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ../../../Granddaughter/Granddaughter/default.png; sourceTree = "<group>"; };
-		8594E58D14576CF400664F91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		8594E58F14576CF400664F91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
-		8594E59214576CF400664F91 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = InfoPlist.strings; sourceTree = "<group>"; };
-		8594E59414576CF400664F91 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Localizable.strings; sourceTree = "<group>"; };
-		8594E59A14576D0D00664F91 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../Granddaughter/Granddaughter/icon.png; sourceTree = "<group>"; };
-		8594E59B14576D0D00664F91 /* launch.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = launch.tiff; path = ../../../Granddaughter/Granddaughter/launch.tiff; sourceTree = "<group>"; };
-		8594E59E14576D1500664F91 /* rowan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rowan.jpg; path = ../../../Granddaughter/Granddaughter/rowan.jpg; sourceTree = "<group>"; };
-		8594E5A014576DE200664F91 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = View.h; path = ../../../Granddaughter/Granddaughter/View.h; sourceTree = "<group>"; };
-		8594E5A114576DE200664F91 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = View.m; path = ../../../Granddaughter/Granddaughter/View.m; sourceTree = "<group>"; };
+		8521D3F31457733400D35B51 /* Rowan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rowan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8521D3F71457733400D35B51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8521D3F91457733400D35B51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8521D3FB1457733400D35B51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8521D3FF1457733400D35B51 /* Rowan-Info.plist */ = {isa = PBXFileReference; path = "Rowan-Info.plist"; sourceTree = "<group>"; };
+		8521D4011457733400D35B51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8521D4031457733400D35B51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8521D4051457733400D35B51 /* Rowan-Prefix.pch */ = {isa = PBXFileReference; path = "Rowan-Prefix.pch"; sourceTree = "<group>"; };
+		8521D4061457733400D35B51 /* RowanAppDelegate.h */ = {isa = PBXFileReference; path = RowanAppDelegate.h; sourceTree = "<group>"; };
+		8521D4071457733400D35B51 /* RowanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RowanAppDelegate.m; sourceTree = "<group>"; };
+		8521D40A1457733400D35B51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8521D4111457733500D35B51 /* RowanTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RowanTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8521D4121457733500D35B51 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8521D41B1457733500D35B51 /* RowanTests-Info.plist */ = {isa = PBXFileReference; path = "RowanTests-Info.plist"; sourceTree = "<group>"; };
+		8521D41D1457733500D35B51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8521D41F1457733500D35B51 /* RowanTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RowanTests.h; sourceTree = "<group>"; };
+		8521D4211457733500D35B51 /* RowanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RowanTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8594E54F14576C7800664F91 /* Frameworks */ = {
+		8521D3F01457733400D35B51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8594E55714576C7800664F91 /* UIKit.framework in Frameworks */,
-				8594E55914576C7800664F91 /* Foundation.framework in Frameworks */,
-				8594E55B14576C7800664F91 /* CoreGraphics.framework in Frameworks */,
+				8521D3F81457733400D35B51 /* UIKit.framework in Frameworks */,
+				8521D3FA1457733400D35B51 /* Foundation.framework in Frameworks */,
+				8521D3FC1457733400D35B51 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8594E56C14576C7800664F91 /* Frameworks */ = {
+		8521D40D1457733500D35B51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8594E57214576C7800664F91 /* SenTestingKit.framework in Frameworks */,
-				8594E57314576C7800664F91 /* UIKit.framework in Frameworks */,
-				8594E57414576C7800664F91 /* Foundation.framework in Frameworks */,
-				8594E57514576C7800664F91 /* CoreGraphics.framework in Frameworks */,
+				8521D4131457733500D35B51 /* SenTestingKit.framework in Frameworks */,
+				8521D4141457733500D35B51 /* UIKit.framework in Frameworks */,
+				8521D4151457733500D35B51 /* Foundation.framework in Frameworks */,
+				8521D4161457733500D35B51 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8594E54714576C7700664F91 = {
+		8521D3E81457733400D35B51 = {
 			isa = PBXGroup;
 			children = (
-				8594E55C14576C7800664F91 /* Rowan */,
-				8594E57814576C7800664F91 /* RowanTests */,
-				8594E55514576C7800664F91 /* Frameworks */,
-				8594E55314576C7800664F91 /* Products */,
+				8521D3FD1457733400D35B51 /* Rowan */,
+				8521D4191457733500D35B51 /* RowanTests */,
+				8521D3F61457733400D35B51 /* Frameworks */,
+				8521D3F41457733400D35B51 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8594E55314576C7800664F91 /* Products */ = {
+		8521D3F41457733400D35B51 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8594E55214576C7800664F91 /* Rowan.app */,
-				8594E57014576C7800664F91 /* RowanTests.octest */,
+				8521D3F31457733400D35B51 /* Rowan.app */,
+				8521D4111457733500D35B51 /* RowanTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8594E55514576C7800664F91 /* Frameworks */ = {
+		8521D3F61457733400D35B51 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8594E55614576C7800664F91 /* UIKit.framework */,
-				8594E55814576C7800664F91 /* Foundation.framework */,
-				8594E55A14576C7800664F91 /* CoreGraphics.framework */,
-				8594E57114576C7800664F91 /* SenTestingKit.framework */,
+				8521D3F71457733400D35B51 /* UIKit.framework */,
+				8521D3F91457733400D35B51 /* Foundation.framework */,
+				8521D3FB1457733400D35B51 /* CoreGraphics.framework */,
+				8521D4121457733500D35B51 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8594E55C14576C7800664F91 /* Rowan */ = {
+		8521D3FD1457733400D35B51 /* Rowan */ = {
 			isa = PBXGroup;
 			children = (
-				8594E56514576C7800664F91 /* RowanAppDelegate.h */,
-				8594E56614576C7800664F91 /* RowanAppDelegate.m */,
-				8594E5A014576DE200664F91 /* View.h */,
-				8594E5A114576DE200664F91 /* View.m */,
-				8594E55D14576C7800664F91 /* Supporting Files */,
+				8521D4061457733400D35B51 /* RowanAppDelegate.h */,
+				8521D4071457733400D35B51 /* RowanAppDelegate.m */,
+				8521D4091457733400D35B51 /* MainWindow.xib */,
+				8521D3FE1457733400D35B51 /* Supporting Files */,
 			);
 			path = Rowan;
 			sourceTree = "<group>";
 		};
-		8594E55D14576C7800664F91 /* Supporting Files */ = {
+		8521D3FE1457733400D35B51 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8594E59E14576D1500664F91 /* rowan.jpg */,
-				8594E59A14576D0D00664F91 /* icon.png */,
-				8594E59B14576D0D00664F91 /* launch.tiff */,
-				8594E58A14576CF400664F91 /* default.png */,
-				8594E58B14576CF400664F91 /* en.lproj */,
-				8594E59014576CF400664F91 /* fr.lproj */,
-				8594E55E14576C7800664F91 /* Rowan-Info.plist */,
-				8594E55F14576C7800664F91 /* InfoPlist.strings */,
-				8594E56214576C7800664F91 /* main.m */,
-				8594E56414576C7800664F91 /* Rowan-Prefix.pch */,
+				8521D3FF1457733400D35B51 /* Rowan-Info.plist */,
+				8521D4001457733400D35B51 /* InfoPlist.strings */,
+				8521D4031457733400D35B51 /* main.m */,
+				8521D4051457733400D35B51 /* Rowan-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8594E57814576C7800664F91 /* RowanTests */ = {
+		8521D4191457733500D35B51 /* RowanTests */ = {
 			isa = PBXGroup;
 			children = (
-				8594E57E14576C7800664F91 /* RowanTests.h */,
-				8594E58014576C7800664F91 /* RowanTests.m */,
-				8594E57914576C7800664F91 /* Supporting Files */,
+				8521D41F1457733500D35B51 /* RowanTests.h */,
+				8521D4211457733500D35B51 /* RowanTests.m */,
+				8521D41A1457733500D35B51 /* Supporting Files */,
 			);
 			path = RowanTests;
 			sourceTree = "<group>";
 		};
-		8594E57914576C7800664F91 /* Supporting Files */ = {
+		8521D41A1457733500D35B51 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8594E57A14576C7800664F91 /* RowanTests-Info.plist */,
-				8594E57B14576C7800664F91 /* InfoPlist.strings */,
+				8521D41B1457733500D35B51 /* RowanTests-Info.plist */,
+				8521D41C1457733500D35B51 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8594E58B14576CF400664F91 /* en.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				8594E58C14576CF400664F91 /* InfoPlist.strings */,
-				8594E58E14576CF400664F91 /* Localizable.strings */,
-			);
-			name = en.lproj;
-			path = ../../../Granddaughter/Granddaughter/en.lproj;
-			sourceTree = "<group>";
-		};
-		8594E59014576CF400664F91 /* fr.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				8594E59114576CF400664F91 /* InfoPlist.strings */,
-				8594E59314576CF400664F91 /* Localizable.strings */,
-			);
-			name = fr.lproj;
-			path = ../../../Granddaughter/Granddaughter/fr.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8594E55114576C7800664F91 /* Rowan */ = {
+		8521D3F21457733400D35B51 /* Rowan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8594E58414576C7800664F91 /* Build configuration list for PBXNativeTarget "Rowan" */;
+			buildConfigurationList = 8521D4251457733500D35B51 /* Build configuration list for PBXNativeTarget "Rowan" */;
 			buildPhases = (
-				8594E54E14576C7800664F91 /* Sources */,
-				8594E54F14576C7800664F91 /* Frameworks */,
-				8594E55014576C7800664F91 /* Resources */,
+				8521D3EF1457733400D35B51 /* Sources */,
+				8521D3F01457733400D35B51 /* Frameworks */,
+				8521D3F11457733400D35B51 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -210,82 +166,74 @@
 			);
 			name = Rowan;
 			productName = Rowan;
-			productReference = 8594E55214576C7800664F91 /* Rowan.app */;
+			productReference = 8521D3F31457733400D35B51 /* Rowan.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8594E56F14576C7800664F91 /* RowanTests */ = {
+		8521D4101457733500D35B51 /* RowanTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8594E58714576C7800664F91 /* Build configuration list for PBXNativeTarget "RowanTests" */;
+			buildConfigurationList = 8521D4281457733500D35B51 /* Build configuration list for PBXNativeTarget "RowanTests" */;
 			buildPhases = (
-				8594E56B14576C7800664F91 /* Sources */,
-				8594E56C14576C7800664F91 /* Frameworks */,
-				8594E56D14576C7800664F91 /* Resources */,
-				8594E56E14576C7800664F91 /* ShellScript */,
+				8521D40C1457733500D35B51 /* Sources */,
+				8521D40D1457733500D35B51 /* Frameworks */,
+				8521D40E1457733500D35B51 /* Resources */,
+				8521D40F1457733500D35B51 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8594E57714576C7800664F91 /* PBXTargetDependency */,
+				8521D4181457733500D35B51 /* PBXTargetDependency */,
 			);
 			name = RowanTests;
 			productName = RowanTests;
-			productReference = 8594E57014576C7800664F91 /* RowanTests.octest */;
+			productReference = 8521D4111457733500D35B51 /* RowanTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8594E54914576C7700664F91 /* Project object */ = {
+		8521D3EA1457733400D35B51 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 8594E54C14576C7700664F91 /* Build configuration list for PBXProject "Rowan" */;
+			buildConfigurationList = 8521D3ED1457733400D35B51 /* Build configuration list for PBXProject "Rowan" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				fr,
 			);
-			mainGroup = 8594E54714576C7700664F91;
-			productRefGroup = 8594E55314576C7800664F91 /* Products */;
+			mainGroup = 8521D3E81457733400D35B51;
+			productRefGroup = 8521D3F41457733400D35B51 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8594E55114576C7800664F91 /* Rowan */,
-				8594E56F14576C7800664F91 /* RowanTests */,
+				8521D3F21457733400D35B51 /* Rowan */,
+				8521D4101457733500D35B51 /* RowanTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8594E55014576C7800664F91 /* Resources */ = {
+		8521D3F11457733400D35B51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8594E56114576C7800664F91 /* InfoPlist.strings in Resources */,
-				8594E59514576CF400664F91 /* default.png in Resources */,
-				8594E59614576CF400664F91 /* InfoPlist.strings in Resources */,
-				8594E59714576CF400664F91 /* Localizable.strings in Resources */,
-				8594E59814576CF400664F91 /* InfoPlist.strings in Resources */,
-				8594E59914576CF400664F91 /* Localizable.strings in Resources */,
-				8594E59C14576D0D00664F91 /* icon.png in Resources */,
-				8594E59D14576D0D00664F91 /* launch.tiff in Resources */,
-				8594E59F14576D1500664F91 /* rowan.jpg in Resources */,
+				8521D4021457733400D35B51 /* InfoPlist.strings in Resources */,
+				8521D40B1457733400D35B51 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8594E56D14576C7800664F91 /* Resources */ = {
+		8521D40E1457733500D35B51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8594E57D14576C7800664F91 /* InfoPlist.strings in Resources */,
-				8594E57F14576C7800664F91 /* RowanTests.h in Resources */,
+				8521D41E1457733500D35B51 /* InfoPlist.strings in Resources */,
+				8521D4201457733500D35B51 /* RowanTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8594E56E14576C7800664F91 /* ShellScript */ = {
+		8521D40F1457733500D35B51 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,87 +249,62 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8594E54E14576C7800664F91 /* Sources */ = {
+		8521D3EF1457733400D35B51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8594E56314576C7800664F91 /* main.m in Sources */,
-				8594E56714576C7800664F91 /* RowanAppDelegate.m in Sources */,
-				8594E5A214576DE200664F91 /* View.m in Sources */,
+				8521D4041457733400D35B51 /* main.m in Sources */,
+				8521D4081457733400D35B51 /* RowanAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8594E56B14576C7800664F91 /* Sources */ = {
+		8521D40C1457733500D35B51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8594E58114576C7800664F91 /* RowanTests.m in Sources */,
+				8521D4221457733500D35B51 /* RowanTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8594E57714576C7800664F91 /* PBXTargetDependency */ = {
+		8521D4181457733500D35B51 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8594E55114576C7800664F91 /* Rowan */;
-			targetProxy = 8594E57614576C7800664F91 /* PBXContainerItemProxy */;
+			target = 8521D3F21457733400D35B51 /* Rowan */;
+			targetProxy = 8521D4171457733500D35B51 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8594E55F14576C7800664F91 /* InfoPlist.strings */ = {
+		8521D4001457733400D35B51 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8594E56014576C7800664F91 /* en */,
+				8521D4011457733400D35B51 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		8594E57B14576C7800664F91 /* InfoPlist.strings */ = {
+		8521D4091457733400D35B51 /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8594E57C14576C7800664F91 /* en */,
+				8521D40A1457733400D35B51 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8521D41C1457733500D35B51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8521D41D1457733500D35B51 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8594E58C14576CF400664F91 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8594E58D14576CF400664F91 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8594E58E14576CF400664F91 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8594E58F14576CF400664F91 /* en */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		8594E59114576CF400664F91 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8594E59214576CF400664F91 /* fr */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8594E59314576CF400664F91 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8594E59414576CF400664F91 /* fr */,
-			);
-			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8594E58214576C7800664F91 /* Debug */ = {
+		8521D4231457733500D35B51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -405,7 +328,7 @@
 			};
 			name = Debug;
 		};
-		8594E58314576C7800664F91 /* Release */ = {
+		8521D4241457733500D35B51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -424,7 +347,7 @@
 			};
 			name = Release;
 		};
-		8594E58514576C7800664F91 /* Debug */ = {
+		8521D4261457733500D35B51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -435,7 +358,7 @@
 			};
 			name = Debug;
 		};
-		8594E58614576C7800664F91 /* Release */ = {
+		8521D4271457733500D35B51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -446,7 +369,7 @@
 			};
 			name = Release;
 		};
-		8594E58814576C7800664F91 /* Debug */ = {
+		8521D4291457733500D35B51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rowan.app/Rowan";
@@ -463,7 +386,7 @@
 			};
 			name = Debug;
 		};
-		8594E58914576C7800664F91 /* Release */ = {
+		8521D42A1457733500D35B51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rowan.app/Rowan";
@@ -483,32 +406,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8594E54C14576C7700664F91 /* Build configuration list for PBXProject "Rowan" */ = {
+		8521D3ED1457733400D35B51 /* Build configuration list for PBXProject "Rowan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8594E58214576C7800664F91 /* Debug */,
-				8594E58314576C7800664F91 /* Release */,
+				8521D4231457733500D35B51 /* Debug */,
+				8521D4241457733500D35B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8594E58414576C7800664F91 /* Build configuration list for PBXNativeTarget "Rowan" */ = {
+		8521D4251457733500D35B51 /* Build configuration list for PBXNativeTarget "Rowan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8594E58514576C7800664F91 /* Debug */,
-				8594E58614576C7800664F91 /* Release */,
+				8521D4261457733500D35B51 /* Debug */,
+				8521D4271457733500D35B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		8594E58714576C7800664F91 /* Build configuration list for PBXNativeTarget "RowanTests" */ = {
+		8521D4281457733500D35B51 /* Build configuration list for PBXNativeTarget "RowanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8594E58814576C7800664F91 /* Debug */,
-				8594E58914576C7800664F91 /* Release */,
+				8521D4291457733500D35B51 /* Debug */,
+				8521D42A1457733500D35B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8594E54914576C7700664F91 /* Project object */;
+	rootObject = 8521D3EA1457733400D35B51 /* Project object */;
 }
