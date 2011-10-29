@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8502FC54145C6FD700FB838D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8502FC53145C6FD700FB838D /* UIKit.framework */; };
+		8502FC56145C6FD700FB838D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8502FC55145C6FD700FB838D /* Foundation.framework */; };
+		8502FC58145C6FD700FB838D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8502FC57145C6FD700FB838D /* CoreGraphics.framework */; };
+		8502FC5E145C6FD700FB838D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8502FC5C145C6FD700FB838D /* InfoPlist.strings */; };
+		8502FC60145C6FD700FB838D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8502FC5F145C6FD700FB838D /* main.m */; };
+		8502FC64145C6FD700FB838D /* Rowan10AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8502FC63145C6FD700FB838D /* Rowan10AppDelegate.m */; };
+		8502FC6C145C6FD700FB838D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8502FC6B145C6FD700FB838D /* SenTestingKit.framework */; };
+		8502FC6D145C6FD700FB838D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8502FC53145C6FD700FB838D /* UIKit.framework */; };
+		8502FC6E145C6FD700FB838D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8502FC55145C6FD700FB838D /* Foundation.framework */; };
+		8502FC76145C6FD700FB838D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8502FC74145C6FD700FB838D /* InfoPlist.strings */; };
+		8502FC79145C6FD700FB838D /* Rowan10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8502FC78145C6FD700FB838D /* Rowan10Tests.m */; };
+		8502FC8F145C709500FB838D /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8502FC82145C709500FB838D /* default.png */; };
+		8502FC90145C709500FB838D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8502FC84145C709500FB838D /* InfoPlist.strings */; };
+		8502FC91145C709500FB838D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8502FC86145C709500FB838D /* Localizable.strings */; };
+		8502FC95145C709500FB838D /* rowan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8502FC8E145C709500FB838D /* rowan.jpg */; };
+		8502FC98145C70BF00FB838D /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 8502FC97145C70BF00FB838D /* View.m */; };
+		8502FC9F145C74CB00FB838D /* LittleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8502FC9E145C74CB00FB838D /* LittleView.m */; };
+		8502FCA1145CA18B00FB838D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8502FCA0145CA18B00FB838D /* Icon.png */; };
+		8502FCA7145CA9A100FB838D /* Windmills of the mind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8502FCA6145CA9A100FB838D /* Windmills of the mind.mp3 */; };
+		8502FCA9145CAAC600FB838D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8502FCA8145CAAC600FB838D /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8502FC6F145C6FD700FB838D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8502FC46145C6FD700FB838D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8502FC4E145C6FD700FB838D;
+			remoteInfo = Rowan10;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8502FC4F145C6FD700FB838D /* Rowan10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rowan10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8502FC53145C6FD700FB838D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8502FC55145C6FD700FB838D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8502FC57145C6FD700FB838D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8502FC5B145C6FD700FB838D /* Rowan10-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rowan10-Info.plist"; sourceTree = "<group>"; };
+		8502FC5D145C6FD700FB838D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8502FC5F145C6FD700FB838D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8502FC61145C6FD700FB838D /* Rowan10-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rowan10-Prefix.pch"; sourceTree = "<group>"; };
+		8502FC62145C6FD700FB838D /* Rowan10AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rowan10AppDelegate.h; sourceTree = "<group>"; };
+		8502FC63145C6FD700FB838D /* Rowan10AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rowan10AppDelegate.m; sourceTree = "<group>"; };
+		8502FC6A145C6FD700FB838D /* Rowan10Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rowan10Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8502FC6B145C6FD700FB838D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8502FC73145C6FD700FB838D /* Rowan10Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rowan10Tests-Info.plist"; sourceTree = "<group>"; };
+		8502FC75145C6FD700FB838D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8502FC77145C6FD700FB838D /* Rowan10Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rowan10Tests.h; sourceTree = "<group>"; };
+		8502FC78145C6FD700FB838D /* Rowan10Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rowan10Tests.m; sourceTree = "<group>"; };
+		8502FC82145C709500FB838D /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		8502FC85145C709500FB838D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		8502FC87145C709500FB838D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		8502FC8E145C709500FB838D /* rowan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rowan.jpg; sourceTree = "<group>"; };
+		8502FC96145C70BF00FB838D /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		8502FC97145C70BF00FB838D /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		8502FC9D145C74CB00FB838D /* LittleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView.h; sourceTree = "<group>"; };
+		8502FC9E145C74CB00FB838D /* LittleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView.m; sourceTree = "<group>"; };
+		8502FCA0145CA18B00FB838D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8502FCA6145CA9A100FB838D /* Windmills of the mind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Windmills of the mind.mp3"; sourceTree = "<group>"; };
+		8502FCA8145CAAC600FB838D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8502FC4C145C6FD700FB838D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8502FCA9145CAAC600FB838D /* AVFoundation.framework in Frameworks */,
+				8502FC54145C6FD700FB838D /* UIKit.framework in Frameworks */,
+				8502FC56145C6FD700FB838D /* Foundation.framework in Frameworks */,
+				8502FC58145C6FD700FB838D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8502FC66145C6FD700FB838D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8502FC6C145C6FD700FB838D /* SenTestingKit.framework in Frameworks */,
+				8502FC6D145C6FD700FB838D /* UIKit.framework in Frameworks */,
+				8502FC6E145C6FD700FB838D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8502FC44145C6FD700FB838D = {
+			isa = PBXGroup;
+			children = (
+				8502FCA8145CAAC600FB838D /* AVFoundation.framework */,
+				8502FC59145C6FD700FB838D /* Rowan10 */,
+				8502FC71145C6FD700FB838D /* Rowan10Tests */,
+				8502FC52145C6FD700FB838D /* Frameworks */,
+				8502FC50145C6FD700FB838D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8502FC50145C6FD700FB838D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8502FC4F145C6FD700FB838D /* Rowan10.app */,
+				8502FC6A145C6FD700FB838D /* Rowan10Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8502FC52145C6FD700FB838D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8502FC53145C6FD700FB838D /* UIKit.framework */,
+				8502FC55145C6FD700FB838D /* Foundation.framework */,
+				8502FC57145C6FD700FB838D /* CoreGraphics.framework */,
+				8502FC6B145C6FD700FB838D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8502FC59145C6FD700FB838D /* Rowan10 */ = {
+			isa = PBXGroup;
+			children = (
+				8502FC62145C6FD700FB838D /* Rowan10AppDelegate.h */,
+				8502FC63145C6FD700FB838D /* Rowan10AppDelegate.m */,
+				8502FC96145C70BF00FB838D /* View.h */,
+				8502FC97145C70BF00FB838D /* View.m */,
+				8502FC9D145C74CB00FB838D /* LittleView.h */,
+				8502FC9E145C74CB00FB838D /* LittleView.m */,
+				8502FC5A145C6FD700FB838D /* Supporting Files */,
+			);
+			path = Rowan10;
+			sourceTree = "<group>";
+		};
+		8502FC5A145C6FD700FB838D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8502FCA6145CA9A100FB838D /* Windmills of the mind.mp3 */,
+				8502FCA0145CA18B00FB838D /* Icon.png */,
+				8502FC8E145C709500FB838D /* rowan.jpg */,
+				8502FC83145C709500FB838D /* en.lproj */,
+				8502FC82145C709500FB838D /* default.png */,
+				8502FC5B145C6FD700FB838D /* Rowan10-Info.plist */,
+				8502FC5C145C6FD700FB838D /* InfoPlist.strings */,
+				8502FC5F145C6FD700FB838D /* main.m */,
+				8502FC61145C6FD700FB838D /* Rowan10-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8502FC71145C6FD700FB838D /* Rowan10Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8502FC77145C6FD700FB838D /* Rowan10Tests.h */,
+				8502FC78145C6FD700FB838D /* Rowan10Tests.m */,
+				8502FC72145C6FD700FB838D /* Supporting Files */,
+			);
+			path = Rowan10Tests;
+			sourceTree = "<group>";
+		};
+		8502FC72145C6FD700FB838D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8502FC73145C6FD700FB838D /* Rowan10Tests-Info.plist */,
+				8502FC74145C6FD700FB838D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8502FC83145C709500FB838D /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8502FC84145C709500FB838D /* InfoPlist.strings */,
+				8502FC86145C709500FB838D /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8502FC4E145C6FD700FB838D /* Rowan10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8502FC7C145C6FD700FB838D /* Build configuration list for PBXNativeTarget "Rowan10" */;
+			buildPhases = (
+				8502FC4B145C6FD700FB838D /* Sources */,
+				8502FC4C145C6FD700FB838D /* Frameworks */,
+				8502FC4D145C6FD700FB838D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rowan10;
+			productName = Rowan10;
+			productReference = 8502FC4F145C6FD700FB838D /* Rowan10.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8502FC69145C6FD700FB838D /* Rowan10Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8502FC7F145C6FD700FB838D /* Build configuration list for PBXNativeTarget "Rowan10Tests" */;
+			buildPhases = (
+				8502FC65145C6FD700FB838D /* Sources */,
+				8502FC66145C6FD700FB838D /* Frameworks */,
+				8502FC67145C6FD700FB838D /* Resources */,
+				8502FC68145C6FD700FB838D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8502FC70145C6FD700FB838D /* PBXTargetDependency */,
+			);
+			name = Rowan10Tests;
+			productName = Rowan10Tests;
+			productReference = 8502FC6A145C6FD700FB838D /* Rowan10Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8502FC46145C6FD700FB838D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8502FC49145C6FD700FB838D /* Build configuration list for PBXProject "Rowan10" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+			);
+			mainGroup = 8502FC44145C6FD700FB838D;
+			productRefGroup = 8502FC50145C6FD700FB838D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8502FC4E145C6FD700FB838D /* Rowan10 */,
+				8502FC69145C6FD700FB838D /* Rowan10Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8502FC4D145C6FD700FB838D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8502FC5E145C6FD700FB838D /* InfoPlist.strings in Resources */,
+				8502FC8F145C709500FB838D /* default.png in Resources */,
+				8502FC90145C709500FB838D /* InfoPlist.strings in Resources */,
+				8502FC91145C709500FB838D /* Localizable.strings in Resources */,
+				8502FC95145C709500FB838D /* rowan.jpg in Resources */,
+				8502FCA1145CA18B00FB838D /* Icon.png in Resources */,
+				8502FCA7145CA9A100FB838D /* Windmills of the mind.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8502FC67145C6FD700FB838D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8502FC76145C6FD700FB838D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8502FC68145C6FD700FB838D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8502FC4B145C6FD700FB838D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8502FC60145C6FD700FB838D /* main.m in Sources */,
+				8502FC64145C6FD700FB838D /* Rowan10AppDelegate.m in Sources */,
+				8502FC98145C70BF00FB838D /* View.m in Sources */,
+				8502FC9F145C74CB00FB838D /* LittleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8502FC65145C6FD700FB838D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8502FC79145C6FD700FB838D /* Rowan10Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8502FC70145C6FD700FB838D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8502FC4E145C6FD700FB838D /* Rowan10 */;
+			targetProxy = 8502FC6F145C6FD700FB838D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8502FC5C145C6FD700FB838D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8502FC5D145C6FD700FB838D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8502FC74145C6FD700FB838D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8502FC75145C6FD700FB838D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8502FC84145C709500FB838D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8502FC85145C709500FB838D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8502FC86145C709500FB838D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8502FC87145C709500FB838D /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8502FC7A145C6FD700FB838D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8502FC7B145C6FD700FB838D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8502FC7D145C6FD700FB838D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rowan10/Rowan10-Prefix.pch";
+				INFOPLIST_FILE = "Rowan10/Rowan10-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8502FC7E145C6FD700FB838D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rowan10/Rowan10-Prefix.pch";
+				INFOPLIST_FILE = "Rowan10/Rowan10-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8502FC80145C6FD700FB838D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rowan10.app/Rowan10";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rowan10/Rowan10-Prefix.pch";
+				INFOPLIST_FILE = "Rowan10Tests/Rowan10Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8502FC81145C6FD700FB838D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rowan10.app/Rowan10";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rowan10/Rowan10-Prefix.pch";
+				INFOPLIST_FILE = "Rowan10Tests/Rowan10Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8502FC49145C6FD700FB838D /* Build configuration list for PBXProject "Rowan10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8502FC7A145C6FD700FB838D /* Debug */,
+				8502FC7B145C6FD700FB838D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8502FC7C145C6FD700FB838D /* Build configuration list for PBXNativeTarget "Rowan10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8502FC7D145C6FD700FB838D /* Debug */,
+				8502FC7E145C6FD700FB838D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8502FC7F145C6FD700FB838D /* Build configuration list for PBXNativeTarget "Rowan10Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8502FC80145C6FD700FB838D /* Debug */,
+				8502FC81145C6FD700FB838D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8502FC46145C6FD700FB838D /* Project object */;
+}
