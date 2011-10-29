@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8502FBF6145C68C800FB838D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8502FBF5145C68C800FB838D /* UIKit.framework */; };
+		8502FBF8145C68C800FB838D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8502FBF7145C68C800FB838D /* Foundation.framework */; };
+		8502FBFA145C68C800FB838D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8502FBF9145C68C800FB838D /* CoreGraphics.framework */; };
+		8502FC00145C68C800FB838D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8502FBFE145C68C800FB838D /* InfoPlist.strings */; };
+		8502FC02145C68C800FB838D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8502FC01145C68C800FB838D /* main.m */; };
+		8502FC06145C68C800FB838D /* Rowan6AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8502FC05145C68C800FB838D /* Rowan6AppDelegate.m */; };
+		8502FC0E145C68C800FB838D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8502FC0D145C68C800FB838D /* SenTestingKit.framework */; };
+		8502FC0F145C68C800FB838D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8502FBF5145C68C800FB838D /* UIKit.framework */; };
+		8502FC10145C68C800FB838D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8502FBF7145C68C800FB838D /* Foundation.framework */; };
+		8502FC18145C68C800FB838D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8502FC16145C68C800FB838D /* InfoPlist.strings */; };
+		8502FC1B145C68C800FB838D /* Rowan6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8502FC1A145C68C800FB838D /* Rowan6Tests.m */; };
+		8502FC33145C69AD00FB838D /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8502FC24145C69AC00FB838D /* default.png */; };
+		8502FC34145C69AD00FB838D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8502FC26145C69AC00FB838D /* InfoPlist.strings */; };
+		8502FC35145C69AD00FB838D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8502FC28145C69AC00FB838D /* Localizable.strings */; };
+		8502FC36145C69AD00FB838D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8502FC2B145C69AC00FB838D /* InfoPlist.strings */; };
+		8502FC37145C69AD00FB838D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8502FC2D145C69AC00FB838D /* Localizable.strings */; };
+		8502FC38145C69AD00FB838D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8502FC30145C69AC00FB838D /* Localizable.strings */; };
+		8502FC39145C69AD00FB838D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8502FC32145C69AC00FB838D /* icon.png */; };
+		8502FC3A145C69AD00FB838D /* Rowan6-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8502FBFD145C68C800FB838D /* Rowan6-Info.plist */; };
+		8502FC3C145C69BD00FB838D /* rowan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8502FC3B145C69BD00FB838D /* rowan.jpg */; };
+		8502FC3F145C69F800FB838D /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 8502FC3E145C69F800FB838D /* View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8502FC11145C68C800FB838D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8502FBE8145C68C800FB838D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8502FBF0145C68C800FB838D;
+			remoteInfo = Rowan6;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8502FBF1145C68C800FB838D /* Rowan6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rowan6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8502FBF5145C68C800FB838D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8502FBF7145C68C800FB838D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8502FBF9145C68C800FB838D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8502FBFD145C68C800FB838D /* Rowan6-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Rowan6-Info.plist"; sourceTree = "<group>"; };
+		8502FBFF145C68C800FB838D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8502FC01145C68C800FB838D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8502FC03145C68C800FB838D /* Rowan6-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rowan6-Prefix.pch"; sourceTree = "<group>"; };
+		8502FC04145C68C800FB838D /* Rowan6AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rowan6AppDelegate.h; sourceTree = "<group>"; };
+		8502FC05145C68C800FB838D /* Rowan6AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rowan6AppDelegate.m; sourceTree = "<group>"; };
+		8502FC0C145C68C800FB838D /* Rowan6Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rowan6Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8502FC0D145C68C800FB838D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8502FC15145C68C800FB838D /* Rowan6Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rowan6Tests-Info.plist"; sourceTree = "<group>"; };
+		8502FC17145C68C800FB838D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8502FC19145C68C800FB838D /* Rowan6Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rowan6Tests.h; sourceTree = "<group>"; };
+		8502FC1A145C68C800FB838D /* Rowan6Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rowan6Tests.m; sourceTree = "<group>"; };
+		8502FC24145C69AC00FB838D /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		8502FC27145C69AC00FB838D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		8502FC29145C69AC00FB838D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		8502FC2C145C69AC00FB838D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = InfoPlist.strings; sourceTree = "<group>"; };
+		8502FC2E145C69AC00FB838D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Localizable.strings; sourceTree = "<group>"; };
+		8502FC2F145C69AC00FB838D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8502FC31145C69AC00FB838D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8502FC32145C69AC00FB838D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		8502FC3B145C69BD00FB838D /* rowan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rowan.jpg; sourceTree = "<group>"; };
+		8502FC3D145C69F800FB838D /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		8502FC3E145C69F800FB838D /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8502FBEE145C68C800FB838D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8502FBF6145C68C800FB838D /* UIKit.framework in Frameworks */,
+				8502FBF8145C68C800FB838D /* Foundation.framework in Frameworks */,
+				8502FBFA145C68C800FB838D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8502FC08145C68C800FB838D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8502FC0E145C68C800FB838D /* SenTestingKit.framework in Frameworks */,
+				8502FC0F145C68C800FB838D /* UIKit.framework in Frameworks */,
+				8502FC10145C68C800FB838D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8502FBE6145C68C800FB838D = {
+			isa = PBXGroup;
+			children = (
+				8502FBFB145C68C800FB838D /* Rowan6 */,
+				8502FC13145C68C800FB838D /* Rowan6Tests */,
+				8502FBF4145C68C800FB838D /* Frameworks */,
+				8502FBF2145C68C800FB838D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8502FBF2145C68C800FB838D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8502FBF1145C68C800FB838D /* Rowan6.app */,
+				8502FC0C145C68C800FB838D /* Rowan6Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8502FBF4145C68C800FB838D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8502FBF5145C68C800FB838D /* UIKit.framework */,
+				8502FBF7145C68C800FB838D /* Foundation.framework */,
+				8502FBF9145C68C800FB838D /* CoreGraphics.framework */,
+				8502FC0D145C68C800FB838D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8502FBFB145C68C800FB838D /* Rowan6 */ = {
+			isa = PBXGroup;
+			children = (
+				8502FC04145C68C800FB838D /* Rowan6AppDelegate.h */,
+				8502FC05145C68C800FB838D /* Rowan6AppDelegate.m */,
+				8502FC3D145C69F800FB838D /* View.h */,
+				8502FC3E145C69F800FB838D /* View.m */,
+				8502FBFC145C68C800FB838D /* Supporting Files */,
+			);
+			path = Rowan6;
+			sourceTree = "<group>";
+		};
+		8502FBFC145C68C800FB838D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8502FC3B145C69BD00FB838D /* rowan.jpg */,
+				8502FC24145C69AC00FB838D /* default.png */,
+				8502FC25145C69AC00FB838D /* en.lproj */,
+				8502FC2A145C69AC00FB838D /* fr.lproj */,
+				8502FC30145C69AC00FB838D /* Localizable.strings */,
+				8502FC32145C69AC00FB838D /* icon.png */,
+				8502FBFD145C68C800FB838D /* Rowan6-Info.plist */,
+				8502FBFE145C68C800FB838D /* InfoPlist.strings */,
+				8502FC01145C68C800FB838D /* main.m */,
+				8502FC03145C68C800FB838D /* Rowan6-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8502FC13145C68C800FB838D /* Rowan6Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8502FC19145C68C800FB838D /* Rowan6Tests.h */,
+				8502FC1A145C68C800FB838D /* Rowan6Tests.m */,
+				8502FC14145C68C800FB838D /* Supporting Files */,
+			);
+			path = Rowan6Tests;
+			sourceTree = "<group>";
+		};
+		8502FC14145C68C800FB838D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8502FC15145C68C800FB838D /* Rowan6Tests-Info.plist */,
+				8502FC16145C68C800FB838D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8502FC25145C69AC00FB838D /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8502FC26145C69AC00FB838D /* InfoPlist.strings */,
+				8502FC28145C69AC00FB838D /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		8502FC2A145C69AC00FB838D /* fr.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8502FC2B145C69AC00FB838D /* InfoPlist.strings */,
+				8502FC2D145C69AC00FB838D /* Localizable.strings */,
+			);
+			path = fr.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8502FBF0145C68C800FB838D /* Rowan6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8502FC1E145C68C800FB838D /* Build configuration list for PBXNativeTarget "Rowan6" */;
+			buildPhases = (
+				8502FBED145C68C800FB838D /* Sources */,
+				8502FBEE145C68C800FB838D /* Frameworks */,
+				8502FBEF145C68C800FB838D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rowan6;
+			productName = Rowan6;
+			productReference = 8502FBF1145C68C800FB838D /* Rowan6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8502FC0B145C68C800FB838D /* Rowan6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8502FC21145C68C800FB838D /* Build configuration list for PBXNativeTarget "Rowan6Tests" */;
+			buildPhases = (
+				8502FC07145C68C800FB838D /* Sources */,
+				8502FC08145C68C800FB838D /* Frameworks */,
+				8502FC09145C68C800FB838D /* Resources */,
+				8502FC0A145C68C800FB838D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8502FC12145C68C800FB838D /* PBXTargetDependency */,
+			);
+			name = Rowan6Tests;
+			productName = Rowan6Tests;
+			productReference = 8502FC0C145C68C800FB838D /* Rowan6Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8502FBE8145C68C800FB838D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8502FBEB145C68C800FB838D /* Build configuration list for PBXProject "Rowan6" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+			);
+			mainGroup = 8502FBE6145C68C800FB838D;
+			productRefGroup = 8502FBF2145C68C800FB838D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8502FBF0145C68C800FB838D /* Rowan6 */,
+				8502FC0B145C68C800FB838D /* Rowan6Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8502FBEF145C68C800FB838D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8502FC00145C68C800FB838D /* InfoPlist.strings in Resources */,
+				8502FC33145C69AD00FB838D /* default.png in Resources */,
+				8502FC34145C69AD00FB838D /* InfoPlist.strings in Resources */,
+				8502FC35145C69AD00FB838D /* Localizable.strings in Resources */,
+				8502FC36145C69AD00FB838D /* InfoPlist.strings in Resources */,
+				8502FC37145C69AD00FB838D /* Localizable.strings in Resources */,
+				8502FC38145C69AD00FB838D /* Localizable.strings in Resources */,
+				8502FC39145C69AD00FB838D /* icon.png in Resources */,
+				8502FC3A145C69AD00FB838D /* Rowan6-Info.plist in Resources */,
+				8502FC3C145C69BD00FB838D /* rowan.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8502FC09145C68C800FB838D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8502FC18145C68C800FB838D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8502FC0A145C68C800FB838D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8502FBED145C68C800FB838D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8502FC02145C68C800FB838D /* main.m in Sources */,
+				8502FC06145C68C800FB838D /* Rowan6AppDelegate.m in Sources */,
+				8502FC3F145C69F800FB838D /* View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8502FC07145C68C800FB838D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8502FC1B145C68C800FB838D /* Rowan6Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8502FC12145C68C800FB838D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8502FBF0145C68C800FB838D /* Rowan6 */;
+			targetProxy = 8502FC11145C68C800FB838D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8502FBFE145C68C800FB838D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8502FBFF145C68C800FB838D /* en */,
+				8502FC2F145C69AC00FB838D /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8502FC16145C68C800FB838D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8502FC17145C68C800FB838D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8502FC26145C69AC00FB838D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8502FC27145C69AC00FB838D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8502FC28145C69AC00FB838D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8502FC29145C69AC00FB838D /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8502FC2B145C69AC00FB838D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8502FC2C145C69AC00FB838D /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8502FC2D145C69AC00FB838D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8502FC2E145C69AC00FB838D /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8502FC30145C69AC00FB838D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8502FC31145C69AC00FB838D /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8502FC1C145C68C800FB838D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8502FC1D145C68C800FB838D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8502FC1F145C68C800FB838D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rowan6/Rowan6-Prefix.pch";
+				INFOPLIST_FILE = "Rowan6/Rowan6-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8502FC20145C68C800FB838D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rowan6/Rowan6-Prefix.pch";
+				INFOPLIST_FILE = "Rowan6/Rowan6-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8502FC22145C68C800FB838D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rowan6.app/Rowan6";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rowan6/Rowan6-Prefix.pch";
+				INFOPLIST_FILE = "Rowan6Tests/Rowan6Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8502FC23145C68C800FB838D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rowan6.app/Rowan6";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rowan6/Rowan6-Prefix.pch";
+				INFOPLIST_FILE = "Rowan6Tests/Rowan6Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8502FBEB145C68C800FB838D /* Build configuration list for PBXProject "Rowan6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8502FC1C145C68C800FB838D /* Debug */,
+				8502FC1D145C68C800FB838D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8502FC1E145C68C800FB838D /* Build configuration list for PBXNativeTarget "Rowan6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8502FC1F145C68C800FB838D /* Debug */,
+				8502FC20145C68C800FB838D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8502FC21145C68C800FB838D /* Build configuration list for PBXNativeTarget "Rowan6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8502FC22145C68C800FB838D /* Debug */,
+				8502FC23145C68C800FB838D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8502FBE8145C68C800FB838D /* Project object */;
+}
