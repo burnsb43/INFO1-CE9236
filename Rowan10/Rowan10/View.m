@@ -46,16 +46,16 @@
                    options: UIViewAnimationOptionCurveEaseOut
                              animations: ^{
                                  
-                                 [UIView setAnimationRepeatCount:10]; 
+                                
                                  //This little block describes what the animation should do
                                 littleView.center = [[touches anyObject] locationInView:self];
-                             
+                               [UIView setAnimationRepeatCount:10]; 
                                 littleView.transform = CGAffineTransformMakeRotation(90 *M_PI /180);
                                 littleView.transform = CGAffineTransformMakeRotation(180 *M_PI /180);
                            
                                 littleView.transform = CGAffineTransformMakeRotation(270 *M_PI /180);
                                 littleView.transform = CGAffineTransformMakeRotation(360 *M_PI /180);
-                              
+                          
                                    
                              } 
                              completion: NULL             ];

@@ -53,7 +53,7 @@
 	}
 	
 	player.volume = 1.0;		//the default
-	player.numberOfLoops = 0;	//negative number for infinite loop
+	player.numberOfLoops = -1;	//negative number for infinite loop
 	/*
      NSLog(@"player.numberOfChannels == %u",
      player.numberOfChannels); //mono or stereo
