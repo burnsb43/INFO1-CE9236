@@ -18,7 +18,6 @@
 		85C09EE314756F8D008CE1CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C09ECA14756F8D008CE1CB /* Foundation.framework */; };
 		85C09EEB14756F8D008CE1CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85C09EE914756F8D008CE1CB /* InfoPlist.strings */; };
 		85C09EEE14756F8D008CE1CB /* Nov17Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C09EED14756F8D008CE1CB /* Nov17Tests.m */; };
-		85C09EF914756FF0008CE1CB /* sneeze.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 85C09EF714756FF0008CE1CB /* sneeze.m4v */; };
 		85C09EFA14756FF0008CE1CB /* StarTrek.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85C09EF814756FF0008CE1CB /* StarTrek.mp3 */; };
 		85C09EFD14757008008CE1CB /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C09EFC14757008008CE1CB /* View.m */; };
 		85C09EFF1475702A008CE1CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C09EFE1475702A008CE1CB /* AVFoundation.framework */; };
@@ -53,7 +52,6 @@
 		85C09EEA14756F8D008CE1CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85C09EEC14756F8D008CE1CB /* Nov17Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nov17Tests.h; sourceTree = "<group>"; };
 		85C09EED14756F8D008CE1CB /* Nov17Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nov17Tests.m; sourceTree = "<group>"; };
-		85C09EF714756FF0008CE1CB /* sneeze.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = sneeze.m4v; sourceTree = "<group>"; };
 		85C09EF814756FF0008CE1CB /* StarTrek.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StarTrek.mp3; sourceTree = "<group>"; };
 		85C09EFB14757008008CE1CB /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 		85C09EFC14757008008CE1CB /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				85C09F0614757D0C008CE1CB /* StarTrek.m4v */,
-				85C09EF714756FF0008CE1CB /* sneeze.m4v */,
 				85C09EF814756FF0008CE1CB /* StarTrek.mp3 */,
 				85C09ED014756F8D008CE1CB /* Nov17-Info.plist */,
 				85C09ED114756F8D008CE1CB /* InfoPlist.strings */,
@@ -236,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				85C09ED314756F8D008CE1CB /* InfoPlist.strings in Resources */,
-				85C09EF914756FF0008CE1CB /* sneeze.m4v in Resources */,
 				85C09EFA14756FF0008CE1CB /* StarTrek.mp3 in Resources */,
 				85C09F0714757D0C008CE1CB /* StarTrek.m4v in Resources */,
 			);
