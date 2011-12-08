@@ -2,26 +2,25 @@
 //  Dec8aAppDelegate.m
 //  Dec8a
 //
-//  Created by Barbara Burns on 12/6/11.
+//  Created by Barbara Burns on 12/8/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import "Dec8aAppDelegate.h"
-
 #import "MainViewController.h"
 
 @implementation Dec8aAppDelegate
 
 @synthesize window = _window;
 @synthesize names;
-@synthesize picture;
-
-
+ 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
     // Override point for customization after application launch
 	names = [NSArray arrayWithObjects:
+             @"Enterprise",
              @"Kirk",
              @"Picard",
              @"Janeway",
@@ -29,44 +28,57 @@
              nil
              ];
     
+	images = [NSArray arrayWithObjects:
+              @"enterprise.jpg",
+              @"kirk.jpg",
+              @"picard.jpg",
+              @"janeway.jpg",
+              @"archer.jpg",
+              nil
+              ];
     
-    MainViewController *firstController = [[MainViewController alloc] initWithTitle: [names objectAtIndex: 0]];
+    comments = [NSArray arrayWithObjects:
+                @"Enterprise Captains",
+                @"The First",
+                @"The Best",
+                @"OK - not great",
+                @"The Weakest",
+                nil
+                ];
     
+    MainViewController *firstController =
+    [[MainViewController alloc] initWithTitle: [names objectAtIndex: 0] image: [images objectAtIndex: 0]
+                                      ];
     
 
-    self.window = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-                   
-    //self.viewController = [[Dec8aViewController alloc] initWithNibName:@"Dec8aViewController" bundle:nil];
+    self.window.backgroundColor = [UIColor whiteColor];
     
-        self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:firstController];  
-        visited = [NSMutableArray arrayWithObject:  firstController];
-                   [self.window makeKeyAndVisible];           
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController: firstController];
+    
+    visited = [NSMutableArray arrayWithObject: firstController];
+    [self.window makeKeyAndVisible];
     return YES;
 }
-                   
-                   - (void) nextCaptain {
-                       UINavigationController *navigationController =
-                       (UINavigationController *)self.window.rootViewController;
-                  
-                       NSUInteger picture = navigationController.viewControllers.count;
-                       
-                       NSUInteger i = navigationController.viewControllers.count;
-                       if (i == names.count) {
-                           //We are currently visiting the last station, and can go no further.
-                           return;
-                       }
-                       
-                       if (visited.count <= i) {
-                           //This captain is being visited for the first time.
-                           [visited addObject:
-                            [[MainViewController alloc] initWithTitle: [names objectAtIndex: i]]
-                            ];
-                           
-                       }
-                       
-                       [navigationController pushViewController: [visited objectAtIndex: i] animated: YES];
-                   }
+- (void) nextCaptain {
+	UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+	NSUInteger i = navigationController.viewControllers.count;
+    
+	if (i == names.count) {
+		//We are currently visiting the last captain, and can go no further.
+		return;
+	}
+    
+	if (visited.count <= i) {
+		//This captain is being visited for the first time.
+		[visited addObject:
+         [[MainViewController alloc] initWithTitle: [names objectAtIndex: i] image: [images objectAtIndex: i]]
+         ];
+	}
+    
+	[navigationController pushViewController: [visited objectAtIndex: i] animated: YES];
+}
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     /*

@@ -2,23 +2,25 @@
 //  Dec8aAppDelegate.h
 //  Dec8a
 //
-//  Created by Barbara Burns on 12/6/11.
+//  Created by Barbara Burns on 12/8/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
- @class Dec8aViewController;
+@class Dec8aViewController;
 
-@interface Dec8aAppDelegate : UIResponder <UIApplicationDelegate> {
+
+@interface Dec8aAppDelegate : UIResponder <UIApplicationDelegate>  {
     NSArray *names;
+	NSArray *images;
+    NSArray *comments;
     NSMutableArray *visited;
     UIWindow *_window;
-   NSUInteger *picture;
 }
 
 @property (strong, nonatomic) UIWindow *window;
-
 @property (strong, nonatomic) NSArray *names;
- @property (  ) NSUInteger *picture;
+@property (strong, nonatomic) NSArray *comments;
+
 @end
