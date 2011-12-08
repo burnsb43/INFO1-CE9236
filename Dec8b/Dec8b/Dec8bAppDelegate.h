@@ -1,25 +1,15 @@
 //
-//  Dec8bAppDelegate.h
+//  dec8bAppDelegate.h
 //  Dec8b
 //
-//  Created by Barbara Burns on 12/7/11.
+//  Created by Barbara Burns on 12/8/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "AVFoundation/AVAudioPlayer.h"
 
-@class Dec8bViewController;
-
-@interface Dec8bAppDelegate : UIResponder <UIApplicationDelegate, AVAudioPlayerDelegate>  {
-    NSArray *a;
-    UITabBarController *controller;
-    UIWindow *window;
-    AVAudioPlayer *player;
-}
+@interface dec8bAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-//@property (strong, nonatomic) Dec8bViewController *viewController;
 
 @end

@@ -1,116 +1,24 @@
 //
-//  Dec8bAppDelegate.m
+//  dec8bAppDelegate.m
 //  Dec8b
 //
-//  Created by Barbara Burns on 12/7/11.
+//  Created by Barbara Burns on 12/8/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "Dec8bAppDelegate.h"
+#import "dec8bAppDelegate.h"
 
-#import "Dec8bViewController.h"
-#import "Home.h"
-#import "Kirk.h"
- #import "Picard.h"
- #import "Janeway.h"
- #import "Archer.h"
-
-@implementation Dec8bAppDelegate
+@implementation dec8bAppDelegate
 
 @synthesize window = _window;
-//@synthesize viewController = _viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{ 
-    
-    // Code for Audio Player
-    NSBundle *bundle = [NSBundle mainBundle];
-	NSLog(@"bundle.bundelPath == \"%@\"", bundle.bundlePath);
-    
-	NSString *filename = [bundle pathForResource: @"StarTrek" ofType: @"mp3"];
-	NSLog(@"filename == \"%@\"", filename);
-    
-	NSURL *url = [NSURL fileURLWithPath: filename isDirectory: NO];
-	NSLog(@"url == \"%@\"", url);
-    
-	NSError *error = nil;
-	player = [[AVAudioPlayer alloc] initWithContentsOfURL: url error: &error];
-    
-	if (player == nil) {
-		NSLog(@"could not initialize player:  %@", error);
-	} else {
-		player.volume = .5;		//the default
-		player.numberOfLoops = -1;	//negative for infinite loop
-		[player setDelegate: self];
-		//mono or stereo
-		NSLog(@"player.numberOfChannels == %u", player.numberOfChannels);
-        
-		if (![player prepareToPlay]) {
-			NSLog(@"prepareToPlay failed");
-		}
-	}
-    
-    
-    UIScreen *s = [UIScreen mainScreen];
-    CGRect f = [s applicationFrame];
-    
-    a = [NSArray arrayWithObjects:
-         
-         [[Dec8bViewController alloc]
-          initWithTitle: @"Home"
-          badge:@"1"
-          view: [[Home alloc] initWithFrame: f]
-          ],
-         
-         [[Dec8bViewController alloc]
-          initWithTitle: @"Kirk"
-          badge:@"2"
-          view: [[Kirk  alloc] initWithFrame: f]
-          ],
-      
-         
-         [[Dec8bViewController alloc]
-          initWithTitle: @"Picard"
-          badge:@"3"
-          view: [[Picard alloc] initWithFrame: f]
-          ],
-         
-         [[Dec8bViewController alloc]
-          initWithTitle: @"Janeway"
-          badge:@"4"
-          view: [[Janeway alloc] initWithFrame: f]
-          ],
-         
-         [[Dec8bViewController alloc]
-          initWithTitle: @"Archer"
-          badge:@"5"
-          view: [[Archer alloc] initWithFrame: f]
-          ],
-        
-         nil
-         ];
-    
-    controller  = [[UITabBarController alloc] init];
-    controller.viewControllers = a;
-    
-    window = [[UIWindow alloc] initWithFrame: s.bounds];
-    [window addSubview: controller.view];
-    [window makeKeyAndVisible];
-}
-
-
-- (void) valueChanged:(id)sender {
-    UISwitch *s = sender;
-    if (s.isOn) {
-        // Switch has just been turned on
-        if (![player play]) {
-            NSLog(@"[player play] failed.");
-        }
-    } else {
-        // switch has just been turned off
-        NSLog(@"Paused at %g of %g seconds.", player.deviceCurrentTime, player.duration);
-        [player pause];
-    }
+{
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
