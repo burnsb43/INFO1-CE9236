@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85EF33E2149108E200313F06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EF33E1149108E200313F06 /* UIKit.framework */; };
+		85EF33E4149108E200313F06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EF33E3149108E200313F06 /* Foundation.framework */; };
+		85EF33E6149108E200313F06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EF33E5149108E200313F06 /* CoreGraphics.framework */; };
+		85EF33EC149108E200313F06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85EF33EA149108E200313F06 /* InfoPlist.strings */; };
+		85EF33EE149108E200313F06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EF33ED149108E200313F06 /* main.m */; };
+		85EF33F2149108E200313F06 /* Dec8cAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EF33F1149108E200313F06 /* Dec8cAppDelegate.m */; };
+		85EF33F5149108E200313F06 /* Dec8cViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EF33F4149108E200313F06 /* Dec8cViewController.m */; };
+		85EF3406149109F400313F06 /* archer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85EF3404149109F400313F06 /* archer.jpg */; };
+		85EF3407149109F400313F06 /* Archer.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EF3405149109F400313F06 /* Archer.m */; };
+		85EF341114910A1400313F06 /* enterprise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85EF340814910A1400313F06 /* enterprise.jpg */; };
+		85EF341214910A1400313F06 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EF340A14910A1400313F06 /* Home.m */; };
+		85EF341314910A1400313F06 /* janeway.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85EF340C14910A1400313F06 /* janeway.jpg */; };
+		85EF341414910A1400313F06 /* Janeway.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EF340D14910A1400313F06 /* Janeway.m */; };
+		85EF341514910A1400313F06 /* kirk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85EF340F14910A1400313F06 /* kirk.jpg */; };
+		85EF341614910A1400313F06 /* Kirk.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EF341014910A1400313F06 /* Kirk.m */; };
+		85EF341B14910A3F00313F06 /* picard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85EF341814910A3F00313F06 /* picard.jpg */; };
+		85EF341C14910A3F00313F06 /* Picard.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EF341914910A3F00313F06 /* Picard.m */; };
+		85EF341D14910A3F00313F06 /* StarTrek.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85EF341A14910A3F00313F06 /* StarTrek.mp3 */; };
+		85EF342314910B9800313F06 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EF342214910B9800313F06 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85EF33DD149108E200313F06 /* Dec8c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dec8c.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EF33E1149108E200313F06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		85EF33E3149108E200313F06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85EF33E5149108E200313F06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		85EF33E9149108E200313F06 /* Dec8c-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dec8c-Info.plist"; sourceTree = "<group>"; };
+		85EF33EB149108E200313F06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85EF33ED149108E200313F06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85EF33EF149108E200313F06 /* Dec8c-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dec8c-Prefix.pch"; sourceTree = "<group>"; };
+		85EF33F0149108E200313F06 /* Dec8cAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dec8cAppDelegate.h; sourceTree = "<group>"; };
+		85EF33F1149108E200313F06 /* Dec8cAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dec8cAppDelegate.m; sourceTree = "<group>"; };
+		85EF33F3149108E200313F06 /* Dec8cViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dec8cViewController.h; sourceTree = "<group>"; };
+		85EF33F4149108E200313F06 /* Dec8cViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dec8cViewController.m; sourceTree = "<group>"; };
+		85EF3403149109F400313F06 /* Archer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archer.h; sourceTree = "<group>"; };
+		85EF3404149109F400313F06 /* archer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = archer.jpg; sourceTree = "<group>"; };
+		85EF3405149109F400313F06 /* Archer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Archer.m; sourceTree = "<group>"; };
+		85EF340814910A1400313F06 /* enterprise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = enterprise.jpg; sourceTree = "<group>"; };
+		85EF340914910A1400313F06 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		85EF340A14910A1400313F06 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		85EF340B14910A1400313F06 /* Janeway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Janeway.h; sourceTree = "<group>"; };
+		85EF340C14910A1400313F06 /* janeway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = janeway.jpg; sourceTree = "<group>"; };
+		85EF340D14910A1400313F06 /* Janeway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Janeway.m; sourceTree = "<group>"; };
+		85EF340E14910A1400313F06 /* Kirk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kirk.h; sourceTree = "<group>"; };
+		85EF340F14910A1400313F06 /* kirk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kirk.jpg; sourceTree = "<group>"; };
+		85EF341014910A1400313F06 /* Kirk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kirk.m; sourceTree = "<group>"; };
+		85EF341714910A3F00313F06 /* Picard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picard.h; sourceTree = "<group>"; };
+		85EF341814910A3F00313F06 /* picard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = picard.jpg; sourceTree = "<group>"; };
+		85EF341914910A3F00313F06 /* Picard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picard.m; sourceTree = "<group>"; };
+		85EF341A14910A3F00313F06 /* StarTrek.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StarTrek.mp3; sourceTree = "<group>"; };
+		85EF342214910B9800313F06 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85EF33DA149108E200313F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EF342314910B9800313F06 /* AVFoundation.framework in Frameworks */,
+				85EF33E2149108E200313F06 /* UIKit.framework in Frameworks */,
+				85EF33E4149108E200313F06 /* Foundation.framework in Frameworks */,
+				85EF33E6149108E200313F06 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85EF33D2149108E200313F06 = {
+			isa = PBXGroup;
+			children = (
+				85EF33E7149108E200313F06 /* Dec8c */,
+				85EF33E0149108E200313F06 /* Frameworks */,
+				85EF33DE149108E200313F06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85EF33DE149108E200313F06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85EF33DD149108E200313F06 /* Dec8c.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85EF33E0149108E200313F06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85EF342214910B9800313F06 /* AVFoundation.framework */,
+				85EF33E1149108E200313F06 /* UIKit.framework */,
+				85EF33E3149108E200313F06 /* Foundation.framework */,
+				85EF33E5149108E200313F06 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85EF33E7149108E200313F06 /* Dec8c */ = {
+			isa = PBXGroup;
+			children = (
+				85EF33F0149108E200313F06 /* Dec8cAppDelegate.h */,
+				85EF33F1149108E200313F06 /* Dec8cAppDelegate.m */,
+				85EF33F3149108E200313F06 /* Dec8cViewController.h */,
+				85EF33F4149108E200313F06 /* Dec8cViewController.m */,
+				85EF340914910A1400313F06 /* Home.h */,
+				85EF340A14910A1400313F06 /* Home.m */,
+				85EF340E14910A1400313F06 /* Kirk.h */,
+				85EF341014910A1400313F06 /* Kirk.m */,
+				85EF341714910A3F00313F06 /* Picard.h */,
+				85EF341914910A3F00313F06 /* Picard.m */,
+				85EF340B14910A1400313F06 /* Janeway.h */,
+				85EF340D14910A1400313F06 /* Janeway.m */,
+				85EF3403149109F400313F06 /* Archer.h */,
+				85EF3405149109F400313F06 /* Archer.m */,
+				85EF33E8149108E200313F06 /* Supporting Files */,
+			);
+			path = Dec8c;
+			sourceTree = "<group>";
+		};
+		85EF33E8149108E200313F06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85EF341A14910A3F00313F06 /* StarTrek.mp3 */,
+				85EF341814910A3F00313F06 /* picard.jpg */,
+				85EF340814910A1400313F06 /* enterprise.jpg */,
+				85EF340C14910A1400313F06 /* janeway.jpg */,
+				85EF340F14910A1400313F06 /* kirk.jpg */,
+				85EF3404149109F400313F06 /* archer.jpg */,
+				85EF33E9149108E200313F06 /* Dec8c-Info.plist */,
+				85EF33EA149108E200313F06 /* InfoPlist.strings */,
+				85EF33ED149108E200313F06 /* main.m */,
+				85EF33EF149108E200313F06 /* Dec8c-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85EF33DC149108E200313F06 /* Dec8c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85EF33FB149108E200313F06 /* Build configuration list for PBXNativeTarget "Dec8c" */;
+			buildPhases = (
+				85EF33D9149108E200313F06 /* Sources */,
+				85EF33DA149108E200313F06 /* Frameworks */,
+				85EF33DB149108E200313F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dec8c;
+			productName = Dec8c;
+			productReference = 85EF33DD149108E200313F06 /* Dec8c.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85EF33D4149108E200313F06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 85EF33D7149108E200313F06 /* Build configuration list for PBXProject "Dec8c" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 85EF33D2149108E200313F06;
+			productRefGroup = 85EF33DE149108E200313F06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85EF33DC149108E200313F06 /* Dec8c */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85EF33DB149108E200313F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EF33EC149108E200313F06 /* InfoPlist.strings in Resources */,
+				85EF3406149109F400313F06 /* archer.jpg in Resources */,
+				85EF341114910A1400313F06 /* enterprise.jpg in Resources */,
+				85EF341314910A1400313F06 /* janeway.jpg in Resources */,
+				85EF341514910A1400313F06 /* kirk.jpg in Resources */,
+				85EF341B14910A3F00313F06 /* picard.jpg in Resources */,
+				85EF341D14910A3F00313F06 /* StarTrek.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85EF33D9149108E200313F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EF33EE149108E200313F06 /* main.m in Sources */,
+				85EF33F2149108E200313F06 /* Dec8cAppDelegate.m in Sources */,
+				85EF33F5149108E200313F06 /* Dec8cViewController.m in Sources */,
+				85EF3407149109F400313F06 /* Archer.m in Sources */,
+				85EF341214910A1400313F06 /* Home.m in Sources */,
+				85EF341414910A1400313F06 /* Janeway.m in Sources */,
+				85EF341614910A1400313F06 /* Kirk.m in Sources */,
+				85EF341C14910A3F00313F06 /* Picard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85EF33EA149108E200313F06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85EF33EB149108E200313F06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85EF33F9149108E200313F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85EF33FA149108E200313F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85EF33FC149108E200313F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dec8c/Dec8c-Prefix.pch";
+				INFOPLIST_FILE = "Dec8c/Dec8c-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		85EF33FD149108E200313F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dec8c/Dec8c-Prefix.pch";
+				INFOPLIST_FILE = "Dec8c/Dec8c-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85EF33D7149108E200313F06 /* Build configuration list for PBXProject "Dec8c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EF33F9149108E200313F06 /* Debug */,
+				85EF33FA149108E200313F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85EF33FB149108E200313F06 /* Build configuration list for PBXNativeTarget "Dec8c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EF33FC149108E200313F06 /* Debug */,
+				85EF33FD149108E200313F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85EF33D4149108E200313F06 /* Project object */;
+}
